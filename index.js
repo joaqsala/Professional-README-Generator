@@ -33,7 +33,7 @@ const questions = () => {
     // {
     //     type: 'list',
     //     message: 'Choose a license for your project.',
-    //     choices: ["None", "Apache License 2.0", "GNU General Public License v3.0", "MIT License", 'BSD 2-Clause "Simplified" License', 'BSD 3-Clause "New" or "Revised" License', 'Boost Software License 1.0', 'Creative Commons Zero v1.0 Universal', 'Eclipse Public License 2.0', 'GNU Affero General Public License v3.0', 'GNU General Public License v2.0', 'GNU Lesser General Public License v2.1', 'Mozilla Public License 2.0', 'The Unilicense'],
+    //     choices: ["None", "MIT License", "Apache License 2.0", 'BSD 3-Clause License', "GNU GPL v3.0", 'GNU GPL v2.0', 'BSD 2-Clause License', 'Mozilla Public License 2.0', 'The Unilicense', 'Internet Systems Consortium (ISC)'],
     //     name: 'license',
     //     default: "None"
     // },
@@ -64,15 +64,13 @@ const questions = () => {
     const mdPageContent = generateMarkdown(answers);
 
     fs.writeFile('README.md', mdPageContent, (err) =>
-      err ? console.log(err) : console.log('Successfully created README.md!')
+    err ? console.log(err) : console.log('Successfully created README.md!')
     );
-  });
-// .catch((error) => {
-//     if (error.isTtyError) {
-//       // Prompt couldn't be rendered in the current environment
-//     } else {
-//       // Something else went wrong
-//     }})
+})
+.catch((error) => {
+    if (error) {
+    console.log(error)
+    }});
 }
 
 
