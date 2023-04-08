@@ -1,8 +1,11 @@
-# Title
+
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/license/mit/)
+
+  # again
 
   ## Description
   
-  undefined
+  working on this
 
   ## Table of Contents
 
@@ -16,17 +19,19 @@
 
 ## Installation
 
-undefined
+just work
 
 ## Usage 
 
+
 ![alt text](assets/images/screenshot.png)
-undefined
+c'mon man
 
 
 ## License
 
-undefined
+This project is covered under the MIT License. 
+    https://opensource.org/license/mit/
 
 ## Contributing
 
