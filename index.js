@@ -32,7 +32,7 @@ const questions = () => {
     },
     {
         type: 'input',
-        message: 'Povide instructions for the user experience and provide examples for use. Be sure to add screenshots after the README file is compiled.',
+        message: 'Povide instructions and examples for use. Add screenshots after the README file is compiled.',
         name: 'usage',
     },
     {
@@ -44,13 +44,13 @@ const questions = () => {
     },
     {
         type: 'input',
-        message: 'Enter any contribution guidelines for your project or use the default.',
+        message: 'Enter any contribution guidelines or use the default.',
         name: 'contribution',
         default: "Contributions are always welcomed. Please submit a pull request."
     },
     {
         type: 'input',
-        message: 'Enter any tests for your projects (include examples on how to run them).',
+        message: 'Enter any tests for your projects - include examples on how to run them.',
         name: 'tests',
     },
     {
