@@ -23,6 +23,7 @@ const questions = () => {
         type: 'input',
         message: 'Enter a short description explaining the what, why, and how of your project.',
         name: 'description',
+        default: "This repository contains ..."
     },
     {
         type: 'input',
@@ -31,7 +32,7 @@ const questions = () => {
     },
     {
         type: 'input',
-        message: 'Povide instructions and examples for use. Be sure to add screenshots after the README file is compiled.',
+        message: 'Povide instructions for the user experience and provide examples for use. Be sure to add screenshots after the README file is compiled.',
         name: 'usage',
     },
     {
@@ -43,8 +44,9 @@ const questions = () => {
     },
     {
         type: 'input',
-        message: 'Enter any contribution guidelines for your project.',
+        message: 'Enter any contribution guidelines for your project or use the default.',
         name: 'contribution',
+        default: "Contributions are always welcomed. Please submit a pull request."
     },
     {
         type: 'input',
@@ -58,7 +60,7 @@ const questions = () => {
     },
     {
         type: 'input',
-        message: 'Enter your email address.',
+        message: 'Enter the email address you would like displayed to have other developers reach out to you.',
         name: 'email',
     },
 ])
