@@ -1,11 +1,11 @@
 
-  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/license/mit/)
+  
 
-  # again
+  # something cool
 
   ## Description
   
-  working on this
+  super cool
 
   ## Table of Contents
 
@@ -19,29 +19,28 @@
 
 ## Installation
 
-just work
+so cool
 
 ## Usage 
 
-
-![alt text](assets/images/screenshot.png)
-c'mon man
+even cooler
 
 
 ## License
 
-This project is covered under the MIT License. 
-    https://opensource.org/license/mit/
+This project is covered under the GNU GPL v3.0. 
+    
 
-## Contributing
+## Contribution
 
-undefined
+I cool
 
 ## Tests
 
-undefined
+you cool
 
 ## Questions
 
-undefined
+https://github.com/joaqsala
 
+For any questions, please reach out to me at: email@email.com.

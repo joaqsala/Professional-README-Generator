@@ -14,21 +14,19 @@ const questions = () => {
     },
     {
         type: 'input',
-        message: 'Enter a description for your project.',
+        message: 'Enter a short description explaining the what, why, and how of your project.',
         name: 'description',
-        default: "My project ..."
+        default: "This project ..."
     },
     {
         type: 'input',
-        message: 'Enter any installation instructions needed for your project, if any.',
+        message: 'Enter any installation instructions (step-by-step) needed for your project.',
         name: 'installation',
-        default: "N/A"
     },
     {
         type: 'input',
-        message: 'Enter usage information for your project.',
+        message: 'Povide instructions and examples for use. Be sure to add screenshots after the README file is compiled.',
         name: 'usage',
-        default: "This project is ..."
     },
     {
         type: 'list',
@@ -37,28 +35,26 @@ const questions = () => {
         name: 'license',
         default: "None"
     },
-    // {
-    //     type: 'input',
-    //     message: 'Enter any contribution guidelines for your project',
-    //     name: 'contribution',
-    //     default: "N/A"
-    // },
-    // {
-    //     type: 'input',
-    //     message: 'Enter any test instructions for your project.',
-    //     name: 'tests',
-    //     default: "N/a"
-    // },
-    // {
-    //     type: 'input',
-    //     message: 'Enter your GitHub usernamer.',
-    //     name: 'username',
-    // },
-    // {
-    //     type: 'input',
-    //     message: 'Enter your email address.',
-    //     name: 'email',
-    // },
+    {
+        type: 'input',
+        message: 'Enter any contribution guidelines for your project.',
+        name: 'contribution',
+    },
+    {
+        type: 'input',
+        message: 'Enter any tests for your projects (include examples on how to run them).',
+        name: 'tests',
+    },
+    {
+        type: 'input',
+        message: 'Enter your GitHub username.',
+        name: 'username',
+    },
+    {
+        type: 'input',
+        message: 'Enter your email address.',
+        name: 'email',
+    },
 ])
 .then((answers) => {
     const mdPageContent = generateMarkdown(answers);
