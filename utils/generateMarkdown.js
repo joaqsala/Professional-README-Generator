@@ -8,9 +8,9 @@ function renderLicenseBadge(license) {
       return "[![License: Apache](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/license/apache-2-0/)";
     case "BSD 3-Clause License":
       return "[![License: BSD-3](https://img.shields.io/badge/License-BSD3_clause-brightgreen.svg)](https://spdx.org/licenses/BSD-3-Clause.html)";
-    case "GNU GPLv3":
+    case "GNU GPL v3.0":
       return "[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)";
-    case "GNU GPLv2":
+    case "GNU GPL v2.0":
       return "[![License: GPL v2](https://img.shields.io/badge/License-GPLv2-blue.svg)](https://www.gnu.org/licenses/gpl-2.0)";
     case "BSD 2-Clause License":
       return "[![License: BSD-2](https://img.shields.io/badge/License-BSD2_clause-brightgreen.svg)](https://spdx.org/licenses/BSD-2-Clause-Patent.html)";
@@ -37,9 +37,9 @@ function renderLicenseLink(license) {
       return "https://opensource.org/license/apache-2-0/";
     case "BSD 3-Clause License":
       return "https://spdx.org/licenses/BSD-3-Clause.html";
-    case "GNU GPLv3":
+    case "GNU GPL v3.0":
       return "https://www.gnu.org/licenses/gpl-3.0";
-    case "GNU GPLv2":
+    case "GNU GPL v2.0":
       return "https://www.gnu.org/licenses/gpl-2.0";
     case "BSD 2-Clause License":
       return "https://spdx.org/licenses/BSD-2-Clause-Patent.html";
@@ -60,8 +60,8 @@ function renderLicenseLink(license) {
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
   if (license !== "None"){
-    return `This project is covered under the ${license}. 
-    ${renderLicenseLink(license)}`
+  return `This project is covered under the ${license}.\n 
+  ${renderLicenseLink(license)}`
   } else return ""
 }
 
@@ -110,9 +110,11 @@ ${tests}
 
 ## Questions
 
-https://github.com/${username}
+For any questions, please feel free to reach out. 
 
-For any questions, please reach out to me at: ${email}.
+Github username: https://github.com/${username}
+
+Email: ${email}
 `;
 }
 

@@ -1,11 +1,11 @@
 
-  
+  [![License: GPL v2](https://img.shields.io/badge/License-GPLv2-blue.svg)](https://www.gnu.org/licenses/gpl-2.0)
 
-  # something cool
+  # asdgoain
 
   ## Description
   
-  super cool
+  abore
 
   ## Table of Contents
 
@@ -19,28 +19,31 @@
 
 ## Installation
 
-so cool
+aoab
 
 ## Usage 
 
-even cooler
+oiwhre
 
 
 ## License
 
-This project is covered under the GNU GPL v3.0. 
-    
+This project is covered under the GNU GPL v2.0.
+ 
+  https://www.gnu.org/licenses/gpl-2.0
 
 ## Contribution
 
-I cool
+shtsh
 
 ## Tests
 
-you cool
+shtsh
 
 ## Questions
 
-https://github.com/joaqsala
+For any questions, please feel free to reach out. 
 
-For any questions, please reach out to me at: email@email.com.
+Github username: https://github.com/rsh
+
+Email: rshsh
