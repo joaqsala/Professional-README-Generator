@@ -19,7 +19,7 @@
 
 ## Installation
 
-Go to https://github.com/joaqsala/Professional-README-Generator and clone the repository. Place the cloned repository into the directory where you want the README.md file. Open the terminal in VS Code, and install inquirer using: npm i inquirer@8.2.4. The app should be ready to run. Simply type 'node index.js' into the terminal and answer the prompts.
+Go to https://github.com/joaqsala/Professional-README-Generator and clone the repository. Place the cloned repository into the directory where you want the README.md file to live. Open the cloned repository in the terminal, and install inquirer using: npm i inquirer@8.2.4. Once installed, simply type 'node index.js' into the terminal and answer the prompts.
 
 
 ## Usage 
@@ -28,7 +28,7 @@ Go to https://github.com/joaqsala/Professional-README-Generator and clone the re
 
 Video walk through: https://watch.screencastify.com/v/tPqJRD0yyZWqv4zGoSdL
 
-This application is great for those looking for a quick and easy way to make a professional-looking README file. Using the comman line interface, a series of questions will appear - one after another. The answers will be saved and used to populate your README.md file.
+This application is great for those looking for a quick and easy way to make a professional-looking README file. Using the command line interface, a series of questions will appear - one after another. The answers will be saved and used to populate your README.md file.
 
 
 ## License
